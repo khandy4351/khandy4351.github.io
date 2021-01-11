@@ -4,3 +4,22 @@ body {
   background: #ECF0F1;
   background: #222;
 }
+
+body::-webkit-scrollbarb {
+  display: none;
+}
+.welcome {
+  color: white;
+  font-family: "Baloo Bhsi", sans-serif;
+}
+
+a {
+  text_decoration: none;
+  color: #eee;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
